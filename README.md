@@ -123,11 +123,3 @@ npm run build
 
 **Kunal Dudhabhate**
 - GitHub: [@kunaldudhabhate](https://github.com/kunaldudhabhate)
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
----
-
-🐕 **Made with ❤️ and lots of dog pictures!**
