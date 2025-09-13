@@ -1,0 +1,9 @@
+[build]
+command = "npm install"
+
+[deploy]
+command = "npm start"
+
+[env]
+PORT = { value = "3000" }
+NODE_ENV = { value = "production" }
