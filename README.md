@@ -3,17 +3,7 @@
 A modern full-stack web application for creating and managing user profiles with random dog images. Built with React, Node.js, Express, and MongoDB.
 
 ## 🚀 Live Demo
-
-### 🌐 Frontend (GitHub Pages)
-**[🔗 View Live Application](https://kunaldudhabhate.github.io/Algooceantask/)**
-
-### 🖥️ Backend API (Railway)
-**[🔗 API Base URL](https://algooceantask-backend-production.up.railway.app/api)**
-- Health Check: [/api/health](https://algooceantask-backend-production.up.railway.app/api/health)
-- User Profiles: [/api/user-profiles](https://algooceantask-backend-production.up.railway.app/api/user-profiles)
-
-### 🚀 One-Click Backend Deployment
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/eJu5hE?referralCode=kunaldudhabhate)
+[View Live Application](https://kunaldudhabhate.github.io/Agloocean-Task/)
 
 ## 📋 Features
 
@@ -97,22 +87,6 @@ npm run dev
 
 ### Health Check
 - `GET /api/health` - Check server status
-
-## 🚀 Deployment
-
-### Backend Deployment (Railway)
-1. Click the "Deploy on Railway" button above
-2. Connect your GitHub repository
-3. Railway will automatically:
-   - Detect the Node.js project
-   - Install dependencies
-   - Create a MongoDB database
-   - Deploy your backend
-4. Copy the generated URL and update frontend config if needed
-
-### Frontend Deployment (GitHub Pages)
-- Automatically deploys via GitHub Actions on every push to `master`
-- Live at: https://kunaldudhabhate.github.io/Algooceantask/
 
 ## 💻 Development
 
