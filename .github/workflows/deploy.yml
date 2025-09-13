@@ -38,7 +38,10 @@ jobs:
     - name: Build
       run: |
         cd Client
-        NODE_ENV=production npm run build
+        npm run build
+      env:
+        NODE_ENV: production
+        VITE_API_URL: https://algooceantask-backend.onrender.com/api
 
     - name: Setup Pages
       uses: actions/configure-pages@v4
