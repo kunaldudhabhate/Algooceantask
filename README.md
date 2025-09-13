@@ -1,9 +1,9 @@
-# DogProfile Manager - Full Stack Application
+# Algoocean Task - Full Stack Application
 
 A modern full-stack web application for creating and managing user profiles with random dog images. Built with React, Node.js, Express, and MongoDB.
 
 ## 🚀 Live Demo
-[View Live Application](https://kunaldudhabhate.github.io/Agloocean-Task/)
+[View Live Application](https://algooceantask-frontend.onrender.com)
 
 ## 📋 Features
 
@@ -14,7 +14,7 @@ A modern full-stack web application for creating and managing user profiles with
 - **Responsive Design**: Works on desktop, tablet, and mobile devices
 - **Data Persistence**: All profiles stored in MongoDB database
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```
 Agloocean-Task/
@@ -35,7 +35,7 @@ Agloocean-Task/
 └── README.md
 ```
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### Frontend
 - React 19
@@ -52,7 +52,7 @@ Agloocean-Task/
 ### External APIs
 - Dog CEO API for random dog images
 
-## 📦 Installation & Setup
+## Installation & Setup
 
 ### Prerequisites
 - Node.js (v20+ recommended)
@@ -77,7 +77,7 @@ cp .env.example .env
 npm run dev
 ```
 
-## 🎯 API Endpoints
+## API Endpoints
 
 ### User Profiles
 - `GET /api/user-profiles` - Get all profiles
@@ -88,7 +88,7 @@ npm run dev
 ### Health Check
 - `GET /api/health` - Check server status
 
-## 💻 Development
+## Development
 
 ### Running Locally
 1. Start MongoDB service
@@ -102,7 +102,7 @@ cd Client
 npm run build
 ```
 
-## 🎨 UI Features
+## UI Features
 
 - **Gradient Color Scheme**: Modern blue-to-purple gradient design
 - **Smooth Animations**: Hover effects and transitions
@@ -110,7 +110,7 @@ npm run build
 - **Responsive Grid**: Adaptive layout for different screen sizes
 - **Loading States**: Beautiful loading and empty states
 
-## 🌟 Key Highlights
+## Key Highlights
 
 - **Professional Architecture**: MVC pattern with separated concerns
 - **Modern UI/UX**: Beautiful gradient design with smooth animations
@@ -119,7 +119,7 @@ npm run build
 - **Clean Date Format**: Stores dates in YYYY-MM-DD format
 - **API Documentation**: Well-documented RESTful API endpoints
 
-## 👤 Author
+## Author
 
 **Kunal Dudhabhate**
 - GitHub: [@kunaldudhabhate](https://github.com/kunaldudhabhate)
