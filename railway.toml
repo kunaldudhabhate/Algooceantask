@@ -1,0 +1,22 @@
+[build]
+command = "cd Server && npm install"
+
+[deploy]
+command = "cd Server && npm start"
+
+[env]
+NODE_ENV = "production"
+
+[[services]]
+name = "backend"
+source = "."
+build.command = "cd Server && npm install"
+deploy.command = "cd Server && npm start"
+
+[[services.env]]
+name = "NODE_ENV"
+value = "production"
+
+[[services.env]]
+name = "PORT"
+value = "3000"

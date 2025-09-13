@@ -2,7 +2,7 @@
 export const API_BASE_URL = import.meta.env.VITE_API_URL ||
   (import.meta.env.MODE === 'development'
     ? 'http://localhost:5000/api'
-    : 'https://algooceantask-backend.onrender.com/api');
+    : 'https://algooceantask-backend-production.up.railway.app/api');
 
 // Debug logging
 console.log('Environment mode:', import.meta.env.MODE);

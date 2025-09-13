@@ -41,7 +41,7 @@ jobs:
         npm run build
       env:
         NODE_ENV: production
-        VITE_API_URL: https://algooceantask-backend.onrender.com/api
+        VITE_API_URL: https://algooceantask-backend-production.up.railway.app/api
 
     - name: Setup Pages
       uses: actions/configure-pages@v4
